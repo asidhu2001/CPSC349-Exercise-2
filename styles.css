@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Address Styles */
+  address {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  /* Image Styles */
+  img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    image-rendering: auto;
+  }
+  
+  /* About Me Section Styles */
+  div {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    animation-name: changingcolors;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes changingcolors {
+    0%   {background-color: lightblue;}
+    25%  {background-color: lightcyan;}
+    50%  {background-color: lightgreen;}
+    100% {background-color: lightgray;}
+  }
+  
+  /* Paragraph Styles */
+  p {
+    text-indent: 20px;
+    text-orientation: sideways;
+    text-align: justify;
+    margin: 10px;
+    color: #444;
+    direction: ltr;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+
+  #survey, #surveyDescription{
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  /* List Styles */
+  ul, ol {
+    margin-left: 30px;
+  }
+  
+  li {
+    line-height: 1.4;
+    margin: 5px 0;
+  }
+  
+  /* Details Styles */
+  details {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Link Styles */
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  /* Miscellaneous Styles */
+  abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted #333;
+  }
+  
+  /* Survey Link Styles */
+  a[href="survey.html"] {
+    font-weight: bold;
+    font-size: 24px;
+    color:lightblue;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Survey Image Styles */
+  embed[type="image/jpg"] {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  /* Survey Form Styles */
+  form {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Survey Fieldset Styles */
+  fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 20px;
+    color: #555;
+  }
+
+  input[type=checkbox] {
+    accent-color: cyan;
+  }
+
+  input[type=radio] {
+    accent-color: cyan;
+  }
+  
+  /* Survey Textarea Styles */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Survey Submit Button Styles */
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+    transform: rotate(180deg);
+  }
+  
+  /* Survey Back Link Styles */
+  a[href="index.html"] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: lightblue;
+    text-decoration: none;
+  }
+
+  #surveyheader{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  
